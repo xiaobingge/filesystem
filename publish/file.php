@@ -98,6 +98,7 @@ return [
             // 'scheme'          => 'https',
         ],
         'go-fastdfs'=>[
+            'driver' => \Hyperf\Filesystem\Adapter\GoFastDfsAdapterFactory::class,
             'domain'=>env('FAST_DFS_DOMAIN'),
             'group'=>env('FAST_DFS_GROUP')
         ]

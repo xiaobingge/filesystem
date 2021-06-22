@@ -15,7 +15,7 @@ use Hyperf\Filesystem\Contract\AdapterFactoryInterface;
 use League\Flysystem\AdapterInterface;
 use Xiaobingge\Fastdfs\GoFastDFSAdapter;
 
-class AliyunOssAdapterFactory implements AdapterFactoryInterface
+class GoFastDfsAdapterFactory implements AdapterFactoryInterface
 {
     /**
      * @throws \Exception
